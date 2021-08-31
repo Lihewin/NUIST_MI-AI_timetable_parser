@@ -1,0 +1,2 @@
+# NUIST_MI-AI_timetable_parser
+小爱同学导入脚本_南信大学分制教学管理系统
