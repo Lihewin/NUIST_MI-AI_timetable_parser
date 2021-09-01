@@ -3,9 +3,9 @@ function weeksArrayFormer(weeks, decider) {
     for(let i = Number(weeks.split("-")[0]); i <= Number(weeks.split("-")[1]); i++){
         if(decider.indexOf("单周") !== -1){
             if (i % 2 === 0) {
-                continue;
+                weekArray.push(i);
             }
-            weekArray.push(i);
+            
         }
         else if (decider.indexOf("双周") !== -1){
             if(i % 2 === 0){
